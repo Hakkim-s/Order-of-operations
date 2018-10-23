@@ -1,0 +1,19 @@
+.well{
+	margin-top: 30px;
+	background-color: #d35400;
+	color: #ecf0f1;
+	box-shadow: 0 0 15px 0 #e67e22;
+	border: 0
+}
+.title{
+	text-align: center;
+	margin:0;
+	margin-bottom: 10px
+}
+.ope{
+	margin-top: 10px;
+}
+textarea{
+	font-size: 17px;
+	font-weight: bold;
+}

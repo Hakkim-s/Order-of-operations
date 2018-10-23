@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order of operations</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="well col-sm-6 col-sm-offset-3">
+		<h1 class="title">Order of operations</h1>
+		<form name="frm" onsubmit="return table()">
+			<div class="form-group" >
+				<input type="text" placeholder="number" name="number" class="form-control" autocomplete="off" />
+				<select class="form-control ope" name="operator" id="operator">
+					<option value="+">Addition</option>
+					<option value="-">Substraction</option>
+					<option value="*">Multiplication</option>
+				</select>
+			</div>
+			<button type="submit" id="btn" class="btn btn-success" >Calculate</button>
+			<div class="pull-right">
+				<button type="reset"  class="btn btn-default" >Clear</button>
+			</div>
+			<div class="form-group">
+				<textarea rows="10" name="result" class="form-control ope" readonly></textarea>
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
